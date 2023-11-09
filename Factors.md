@@ -1,5 +1,7 @@
 # 12 factors
 
+I only implemented the factors with a +. The other ones were not implementable by my app due to its simplicity.
+
     + Codebase: My code is tracked and organized in a single repository per application. 
 
     + Dependencies: I explicitly declared and isolated dependencies, using Maven to define and manage dependencies in a consistent, isolated manner.
