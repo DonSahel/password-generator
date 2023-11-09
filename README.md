@@ -2,7 +2,8 @@
 
 Build the app with 
 ```
-    mvn clean package docker:build
+    mvn clean package
+    docker build -t myapp .
 ```
 
 Run the image with
